@@ -1,76 +1,127 @@
--Objective
+### Project Overview
 
-To analyze two years of retail transaction data and deliver actionable insights on sales performance, promotional effectiveness, and customer behavior using Power BI.
+This project analyzes two years of retail transaction data to uncover key drivers of sales performance, customer behavior, and promotional effectiveness. Using Power BI, the dashboard converts raw transactional data into clear, decision-ready insights that help stakeholders optimize pricing, promotions, and customer retention strategies.
 
--Project Summary
 
-This project builds an interactive Power BI dashboard that tracks key metrics across regions, categories, and time periods.
-It helps business stakeholders quickly identify what’s driving revenue and where improvements are needed.
 
--Key Business Insights
+## Business Questions Answered
 
-1.Total Sales: $2.5B from ~1M transactions over two years.
+This project was designed to answer critical business questions such as:
 
-2.Toys category consistently leads sales across all states and promotions.
+What is driving overall sales growth across regions and categories?
 
-3.Promotional Dependency: 100% of sales are discount-driven — no organic sales.
+Which product categories contribute the most to total revenue?
 
-4.Retention: 0% returning customers → strong need for loyalty/CRM strategy.
+How effective are different promotional strategies?
 
-5.Promotion Performance: “20% Off” generates the highest revenue vs “BOGO” and “Flash Sale.”
+Are customers returning or making only one-time purchases?
 
-6.Customer Segmentation: Medium spenders (~44%) dominate revenue contribution.
+Which customer segments deliver the highest lifetime value?
 
-7.Regional: State Z leads ($835M), but overall regional variance is minimal.
+How dependent is the business on discount-based sales?
 
--Technical Workflow
 
-1. Data Preparation:
+## Key Business Insights
 
-Cleaned raw transaction data in Power Query (handled missing values, normalized fields).
+Generated $2.5B in total sales from approximately 1 million transactions over two years.
 
-2. Data Modeling:
+The Toys category consistently leads sales across all states and promotion types.
 
-Built Star Schema linking Fact_Transactions with dimension tables (Customers, Products, Promotions, Stores).
+100% of revenue is discount-driven, indicating heavy dependence on promotions and lack of organic demand.
 
-3. DAX Measures:
+Customer retention rate: 0%, highlighting an urgent need for loyalty and CRM strategies.
 
-Created metrics: Total Sales, AOV, Retention Rate %, Promo Sales %, and Sales Growth %.
+The “20% Off” campaign outperforms BOGO and Flash Sale promotions in revenue generation.
 
-4. Visualization:
+Medium-spending customers (≈44%) contribute the largest share of revenue.
 
-Designed KPI cards, trend charts, and promotional comparison visuals.
+State Z leads with $835M in revenue, though regional performance variance remains minimal overall.
 
-Added drill-throughs and tooltips for category-level insights.
+## Technical Workflow
 
--Tools & Skills
+# Data Preparation
 
-1.Power BI Desktop – Dashboarding & Visualization
+Cleaned raw transaction data in Power Query (handled missing values, standardized formats, normalized fields)
 
-2.DAX – Calculated Columns & Measures
 
-3.Power Query – Data Cleaning & Transformation
+## Data Modeling
 
-4.Data Modeling – Fact/Dimension Relationships
+Designed a Star Schema structure linking Fact_Transactions with:
 
-5.Analytical Thinking – Business Insight Writing
+Customers
 
--Business Impact
+Products
 
-Helps stakeholders:
+Promotions
 
-1.Track real-time performance by region and promotion type.
+Stores
 
-2.Identify over-reliance on discounts.
 
-3.Plan retention and pricing strategies based on category responsiveness.
+## DAX Measures
 
--Repository Contents
+Created key analytical metrics including:
 
-Power BI dashboard file:https://drive.google.com/file/d/1GnQ-xQyTP-rWQsMBR8xkQ7y4qBD_6_XQ/view?usp=sharing
-Raw Data: https://drive.google.com/file/d/1ZGRh128mIH69g8A-OLBIW7nlVz-XBnZl/view?usp=sharing
-Dashboard snapshot:https://drive.google.com/file/d/1DYseOyTChXEeR3M9zhT7uHshV3UpNAUb/view?usp=sharing
-README.md
+Total Sales
 
--Key Takeaway
-The dashboard provides a full 360° view of business performance, connecting sales metrics to actionable decisions — bridging the gap between data and strategy.
+Average Order Value (AOV)
+
+Retention Rate (%)
+
+Promotion-Driven Sales (%)
+
+Sales Growth (%)
+
+
+## Visualization Design
+
+Interactive KPI cards and trend charts
+
+Promotion comparison visuals
+
+Drill-through pages for category insights
+
+Tooltip pages for enhanced exploration
+
+
+## Tools & Technologies
+
+Power BI Desktop — Dashboard development & visualization
+
+DAX — Calculated columns and measures
+
+Power Query — Data cleaning and transformation
+
+Data Modeling — Star schema design
+
+SQL / Analytical Thinking — Business logic and insight generation
+
+
+## Skills Demonstrated
+
+Business-focused data storytelling
+
+KPI development and performance tracking
+
+Advanced DAX logic
+
+Dimensional data modeling
+
+Insight-driven dashboard design
+
+
+## Business Impact
+
+This dashboard enables business teams to:
+
+Monitor performance by region and promotion type
+
+Identify over-reliance on discount-led sales
+
+Develop retention strategies
+
+Optimize pricing and promotional effectiveness
+
+
+## Key Takeaway
+
+This project delivers a 360-degree view of business performance, bridging the gap between raw data and strategic decision-making using clear, actionable analytics.
